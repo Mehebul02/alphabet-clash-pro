@@ -27,3 +27,9 @@ function setBackground(elements){
     const setBack=document.getElementById(elements)
     setBack.classList.add("bg-orange-600")
 }
+
+// removeBackground
+function removeBackground (elementid){
+    const removeBackground =document.getElementById(elementid);
+    removeBackground.classList.remove('bg-orange-600')
+}
